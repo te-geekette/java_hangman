@@ -12,7 +12,7 @@ public class Prompter {
       System.out.printf("Congratulations! You won with %d tries remaining. \n",
                         mGame.getRemainingMisses());
     } else {
-      System.out.printf("Oh no. You lost! The correct answer was: %s\n",
+      System.out.printf("Oh no! You lost! The correct answer was: %s\n",
                        mGame.getAnswer());
     }
   }
